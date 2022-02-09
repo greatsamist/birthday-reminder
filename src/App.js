@@ -1,10 +1,9 @@
 import List from "./components/List";
-
+import Styles from "./App.module.scss";
 function App() {
   return (
-    <div>
+    <div className={Styles.app}>
       <List />
-      <h1>Sample heading</h1>
     </div>
   );
 }
