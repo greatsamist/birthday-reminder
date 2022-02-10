@@ -4,4 +4,43 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
+  &__list {
+    top: 0;
+    //   width: 90vw;
+    width: 400px;
+    margin: 5rem;
+    padding: 30px;
+    background: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+  }
+  &__header {
+    font-size: 1.6rem;
+    margin-bottom: 0.35rem;
+  }
+
+  &__profile {
+    margin-bottom: 1rem;
+  }
+
+  &__clear {
+    display: block;
+    margin: auto;
+    color: #fff;
+    background: #6a3dd4;
+    width: 100%;
+    margin: 2rem auto 0 auto;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    border-color: transparent;
+    padding: 0.5rem 0;
+    letter-spacing: 0.1rem;
+    border-radius: 10px;
+    outline: 1px solid rgba(140, 159, 242, 0.8);
+    cursor: pointer;
+  }
 }

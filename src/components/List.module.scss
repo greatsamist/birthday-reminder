@@ -1,35 +1,24 @@
 .list {
-  top: 0;
-  //   width: 90vw;
-  max-width: 1170px;
-  margin: 5rem;
-  padding: 20px;
-  background: white;
-  border-radius: 10px;
   display: flex;
-  justify-content: center;
-  flex-direction: column;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+  align-items: center;
+  margin-bottom: 1rem;
 
-  &__header {
+  &__image {
+    margin-right: 1.2rem;
   }
 
-  &__profile {
+  &__person {
+    display: flex;
+    flex-direction: column;
   }
-
-  &__clear {
-    display: block;
-    margin: auto;
-    color: #fff;
-    background: #f28ab2;
-    width: 100%;
-    margin: 2rem auto 0 auto;
-    text-transform: capitalize;
-    font-size: 1.2rem;
-    border-color: transparent;
-    padding: 0.5rem 0;
-    border-radius: 10px;
-    outline: 1px solid rgba(242, 138, 178, 0.8);
-    cursor: pointer;
+  &__h4 {
+    margin-bottom: 0.35rem;
+  }
+  &__img {
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
   }
 }
