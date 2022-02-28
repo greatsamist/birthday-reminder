@@ -1,6 +1,6 @@
 import List from "./components/List";
 import Styles from "./App.module.scss";
-import Data from "./components/Data";
+import Data from "./components/Birthdays";
 import { useState } from "react";
 
 function App() {
